@@ -1,9 +1,19 @@
 :root {
-    --rosa-claro: #FFBE98;
-    --rosa: #F05A7E;
-    --azul: #125B9A;
-    --azul-claro: #0B8494;
-    --branco: #F5F5F5;
-    --preto: #0a0a0b; 
+    --azul-escuro: #001f54;
+    --azul: #034078;
+    --azul-claro: #1282a2;
+    --branco: #fefcfb;
+    --preto: #0a1128; 
 }
 
+body {
+    background-image: linear-gradient(var(--preto), var(--azul-escuro), var(--azul), var(--azul-claro), var(--branco));
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    ''
+}
+
+i {
+    width: 12px;
+}
